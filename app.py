@@ -96,7 +96,7 @@ if page == "🏠 Home":
     concerning housing in the area of Boston Mass. It has 506 entries with 14 features.
     """)
 
-# [Rest of your code remains exactly the same...]
+
 
 # Data Visualization Page
 elif page == "📊 Data Visualization":
@@ -211,7 +211,7 @@ elif page == "🔮 Prediction":
     }
     
     if st.button("Predict Home Value", type="primary"):
-        # Create input array in the correct feature order
+        # input array in the correct feature order
         input_features = [
             default_values['CRIM'], zn, indus, default_values['CHAS'], nox,
             default_values['RM'], age, default_values['DIS'], default_values['RAD'],
@@ -326,3 +326,7 @@ st.markdown("""
     }
 </style>
 """, unsafe_allow_html=True)
+
+
+
+
